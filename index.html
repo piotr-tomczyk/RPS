@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="./script.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
     <title>RPS in Console</title>
 </head>
 <body>
+    <div class="header">
+        <div class="title">RPS GAME</div>
+        <div class="name">Piotr Tomczyk</div>
+    </div>
     <div id="container">
         <div id="round-info"></div>
         <div id="score"></div>
-        <button id="rock"> ROCK </button>
-        <button id="paper"> PAPER </button>
-        <button id="scissors"> SCISSORS </button>
+        <div class="buttons">
+            <div class="rock"><button id="rock"> ROCK </button></div>
+            <div class="paper"><button id="paper"> PAPER </button></div>
+            <div class="scissors"><button id="scissors"> SCISSORS </button></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>Copyright © Piotr Tomczyk 2022</div>
     </div>
 </body>
 </html>
