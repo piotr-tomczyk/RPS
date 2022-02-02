@@ -45,8 +45,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 1em;
-    padding-left: 1.3em;
-    margin-top: 15px;
+    margin: 15px;
 }
 #rock, #paper, #scissors{
     border: none;
