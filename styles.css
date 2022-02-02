@@ -44,10 +44,11 @@ body{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding-left: 2%;
     gap: 1em;
     margin: 15px;
 }
-#rock, #paper, #scissors{
+#rock, #paper, #scissors, #hidden{
     border: none;
     padding: 1em 2em;
     border-radius: 5%;
@@ -57,5 +58,11 @@ body{
 @media only screen and (max-width: 500px) {
 .header{
     font-size:24px;
+}
+.buttons{
+    margin: 0px;
+}
+#hidden1{
+    display: none;
 }
 }
